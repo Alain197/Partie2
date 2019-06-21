@@ -10,6 +10,17 @@ int factorielle(unsigned n)
 	return n*factorielle(n-1);
 }
 
+double getMax(double n,double m)
+{
+	if(n>m)
+	{
+		return (n);
+	}
+	return (m);
+
+}
+
+
 int main()
 {
 	cout<<"Hello Openclassrooms"<<endl;
