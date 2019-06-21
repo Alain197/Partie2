@@ -10,3 +10,15 @@ def crible(n):#crible d'Eratostède pour obtenir les nombres premiers
 				L.remove(j)
 	return L
 
+def pgcd(a,b):# calcul du plus grand commun  diviseur 
+	q=a//b
+	r=a%b
+	while r!=0:
+		a=b
+		b=q
+		r=a%b
+	return b
+
+a=3
+b=2
+print(pgcd(a,b))
